@@ -31,9 +31,9 @@ client.on('messageCreate', async message => {
 
     if (message.content === '!start') {
       const button1 = new ButtonBuilder()
-      .setCustomId('click_me')
-      .setLabel('Click Me!')
-      .setStyle(ButtonStyle.Primary);
+        .setCustomId('click_me')
+        .setLabel('Click Me!')
+        .setStyle(ButtonStyle.Primary);
 
       const button2 = new ButtonBuilder()
         .setCustomId('secondary_button')
@@ -46,7 +46,7 @@ client.on('messageCreate', async message => {
         .setStyle(ButtonStyle.Primary);        
       
       const button4 = new ButtonBuilder()
-        .setCustomId('secondary_button')
+        .setCustomId('secondary_button1')
         .setLabel('Second Button')
         .setStyle(ButtonStyle.Secondary);
 
